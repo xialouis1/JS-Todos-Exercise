@@ -1,0 +1,18 @@
+.done {
+    text-decoration: line-through;
+}
+
+#container {
+    margin: auto;
+    width: 70%;
+    border: 3px solid green;
+}
+
+#userInput {
+    font-size: 2em;
+    
+}
+
+#todoList ul li button {
+    margin-left: 1em;
+}
