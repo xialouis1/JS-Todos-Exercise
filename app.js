@@ -14,7 +14,7 @@ function saveToLocalStorage() {
 
 // Mark todos as done or not done by clicking on the actual text
 // Delete todos when clicking the cooresponding delete button
-const ul = document.querySelector("#todoList ul");
+const ul = document.querySelector("#todoList");
 ul.addEventListener("click", function(event) {
     if(event.target.tagName === "SPAN") {
         event.target.parentElement.classList.toggle("done");
